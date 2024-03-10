@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './Question.css'
-import { Button, ButtonBase } from '@material-ui/core'
+import { Button } from '@material-ui/core'
 import ErrorMessage from '../ErrorMessage/ErrorMessage'
 import { useNavigate } from 'react-router-dom'
 const Questions = ({currQues,setCurrQues,questions,options,correct,setScore,score}) => {

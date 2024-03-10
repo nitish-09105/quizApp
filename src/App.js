@@ -7,6 +7,8 @@ import Quiz from "./pages/Quiz/Quiz";
 import Result from "./pages/Result/Result";
 import { useState } from "react";
 import axios from "axios";
+import Chatbot from "./components/Chatbot/Chatbot";
+
 
 function App() {
 
@@ -37,7 +39,9 @@ function App() {
 
         </Routes>
       </div>
+      <Chatbot/>
         <Footer />
+      
     </BrowserRouter>
   );
 }
